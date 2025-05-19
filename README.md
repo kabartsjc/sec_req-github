@@ -12,6 +12,8 @@ Students will read a provided **problem statement**, analyze the system, and wri
 
 All stories must follow the appropriate format and include acceptance criteria (when required).
 
+#### The autograde does not check the semantic of the stories, only the syntax.
+
 ---
 
 ## 📘 Instructions
