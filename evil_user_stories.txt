@@ -1,0 +1,15 @@
+As a malicious actor,
+I want to intercept the MQTT messages between victims and the crisis center,
+So that I can spoof distress messages or reveal private user data.
+
+Acceptance Criteria:
+- The attacker can identify and parse MQTT payloads from drones.
+- The attacker can inject false messages into the network.
+
+As a malicious actor,
+I want to overload the drone communication network with fake messages,
+So that legitimate distress calls are delayed or lost.
+
+Acceptance Criteria:
+- Network accepts repeated invalid messages.
+- Drones are unable to distinguish valid from fake requests.

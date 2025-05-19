@@ -1,0 +1,7 @@
+As a disaster victim,
+I want to send my location and status through the rescue app,
+So that rescue teams can locate and assist me effectively.
+
+As a rescue operator,
+I want to view incoming distress signals on a map dashboard,
+So that I can prioritize and coordinate rescue missions efficiently.

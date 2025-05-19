@@ -1,0 +1,15 @@
+As a security engineer,
+I want to encrypt MQTT messages sent between victims and drones,
+So that attackers cannot eavesdrop or modify critical distress data.
+
+Acceptance Criteria:
+- All MQTT traffic is encrypted with TLS.
+- Messages must be authenticated and validated at the receiver.
+
+As a security engineer,
+I want to rate-limit incoming MQTT connections from a single source,
+So that flooding or denial-of-service attacks are mitigated.
+
+Acceptance Criteria:
+- System enforces rate limits per client identity/IP.
+- Excess requests are dropped and logged for audit.
